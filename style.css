@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: white;
+    z-index: 10;
+}
+
+nav .logo img{
+    width: 95px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.telephone a span{
+    list-style: none;
+}
+nav .telephone a{
+    font-size: .78rem;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height:150vh;
+    background: #FEF4EA;
+    padding: 40px 40px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container{
+    position: relative;
+    width: 40%;
+    height: auto;
+    background: #FEF4EA;
+    top: 100px;
+    padding: 20px;
+    
+}
+
+.container .h2 h2{
+    font-size: 2.3em;
+}
+
+.paragraph p{
+    font-size: 1.2em;
+}
+
+.badge{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 20px;
+}
+
+/* Container for the content text */
+.container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Form container */
+.form-container {
+    position: relative;
+    flex: 1;
+    padding-left: 20px;
+    max-width: 600px; /* Optional: Limit the form width */
+    background-color: white;
+    padding: 30px;
+    top: 100px;
+    margin-right: 30px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: 1px solid rgb(212, 211, 211);  
+}
+
+.form-container label{
+    font-size: .80em;
+    font-weight: bold;
+}
+
+/* Styling for form rows */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for each row */
+    gap: 5px; /* Space between columns */
+    margin-bottom: 15px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    margin-top: 10px;
+    width: 192%;
+    padding: 13.5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    outline-offset: 4px;
+  }
+
+
+
+/* Form inputs */
+input {
+    padding: 13.5px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 90%;
+}
+
+/* Submit Button styling */
+button {
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #FF5C35;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 30px;
+
+}
+
+button span{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #da4a26;
+}
+
+/* Paragraph and Privacy Policy */
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
